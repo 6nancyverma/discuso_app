@@ -14,8 +14,6 @@ const append = (message, position) => {
     messageContainer.append(messageElement);
     if (position == 'left') { audio.play(); }
 }
-window.addEventListener('scrollDown',()=>{
-    alert('hlo');})
 
 // ask new user to his/her name and the server know
 const name = prompt("enter your name to join");
